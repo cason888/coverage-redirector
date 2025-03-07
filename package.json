@@ -1,0 +1,16 @@
+{
+    "name": "coverage-redirector",
+    "version": "1.0.0",
+    "description": "URL redirector for coverage.my",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    },
+    "engines": {
+        "node": ">=14"
+    }
+}
